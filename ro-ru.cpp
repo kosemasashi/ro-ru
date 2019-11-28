@@ -22,7 +22,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevIntance, LPSTR lPCmdLine,
 	{
 		for (int j = 0; j < w; j++)
 		{
-			// １ドットの色を取得
+			// １ドットの色を取得!
 			GetPixelSoftImage(Handle, j, i, &r, &g, &b, &a);
 			if (r == 255) {
 				color[j][i] = 1;
